@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.utilities.DriverUtilities;
+import com.utilities.Report;
 
 public class HomePage {
 
@@ -39,8 +40,10 @@ public class HomePage {
 	 * @return
 	 */
 	public boolean clickOnSearchButton() {
+		Report.info("Entering HomePage::clickOnSearchButton()");
 		boolean clicked = false;
 		clicked = DriverUtilities.clickOnElement(searchButton);
+		Report.info("Exited HomePage::clickOnSearchButton()");
 		return clicked;
 	}
 	
@@ -50,9 +53,11 @@ public class HomePage {
 	 */
 	public boolean checkSignInButtonIsDisplayed()
 	{
+		Report.info("Entering HomePage::checkSignInButtonIsDisplayed()");
 		boolean isDisplayed = false;
 		DriverUtilities.waitForElementToBecomeVisible(driver, signInButton, 5);
 		isDisplayed = signInButton.isDisplayed();
+		Report.info("Exited HomePage::checkSignInButtonIsDisplayed() with : " + isDisplayed);
 		return isDisplayed;
 	}
 
@@ -94,8 +99,10 @@ public class HomePage {
 	 */
 	public int getTheSubHeadingsCount()
 	{
+		Report.info("Entering HomePage::getTheSubHeadingsCount()");
 		int count = 0;
 		count = driver.findElements(subNewsHeadings).size();
+		Report.info("Exiting HomePage::getTheSubHeadingsCount() with :" + count);
 		return count;
 	}
 }

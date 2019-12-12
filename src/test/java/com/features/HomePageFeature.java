@@ -46,36 +46,33 @@ public class HomePageFeature {
 		homepage.clickOnSearchButton();
 	}
 
-	@When("^the user clicks on the subheading technology $")
+	@When("^the user clicks on the subheading technology$")
 	public void clickOnSubheading()
 	{
 		HomePage homepage = new HomePage(driver);
-		homepage.clickOnSearchButton();
+		homepage.clickMainNavLink();
+		homepage.clickOnTechnologyLink();
 	}
 
-	@And("^enter the search keyword$")
+	@Then("^enter the search keyword$")
 	public void enterSearchKeyword()
 	{
 		HomePage homepage = new HomePage(driver);
 		homepage.enterSearchKeyword("News");
 	}
 
-	@Then("^search results page is displayed with results$")
+	@When("^search results page is displayed with results$")
 	public void validateTheSearchResultsPageIsDisplayed()
 	{
 		SearchPage searchPage = new SearchPage(driver);
 		Assert.assertTrue(searchPage.checkSearchResultSectionIsDisplayed());
 	}
 
-	@Then("^the technology page is displayed$")
+	@And("^the technology page is displayed$")
 	public void validateTheTechnologypageIsDisplayed()
 	{
-		HomePage homepage = new HomePage(driver);
-		Technology technology;
-		homepage.clickMainNavLink();
-		technology = homepage.clickOnTechnologyLink();
+		Technology technology = new Technology(driver);
 		Assert.assertTrue(technology.checkSearchResultSectionIsDisplayed());
-
 	}
 
 	@When("^the homepage should have multiple subheadings$")

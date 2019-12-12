@@ -1,0 +1,65 @@
+2019-12-12 21:20:45 INFO  Report:11 - -------Validate search functionality started execution-------
+2019-12-12 21:20:45 INFO  Report:11 - Entered PropertyUtils::readPropertyFile with './resources/global.properties'
+2019-12-12 21:20:45 INFO  Report:11 - Exited PropertyUtils::readPropertyFile
+2019-12-12 21:20:54 INFO  Report:11 - Entering DriverUtilities::openUrl()
+2019-12-12 21:22:27 INFO  Report:11 - Exiting DriverUtilities::openUrl() with 'true"
+2019-12-12 21:22:28 INFO  Report:11 - Entering HomePage::checkSignInButtonIsDisplayed()
+2019-12-12 21:22:28 INFO  Report:11 - Entering DriverUtilities::waitForElementToBecomeVisible()
+2019-12-12 21:22:29 INFO  Report:11 - Exiting DriverUtilities::waitForElementToBecomeVisible() with 'true"
+2019-12-12 21:22:29 INFO  Report:11 - Exited HomePage::checkSignInButtonIsDisplayed() with : true
+2019-12-12 21:22:29 INFO  Report:11 - Entering HomePage::clickOnSearchButton()
+2019-12-12 21:22:29 INFO  Report:11 - Entering DriverUtilities::clickOnElement()
+2019-12-12 21:22:29 INFO  Report:11 - Exiting DriverUtilities::clickOnElement() with 'true"
+2019-12-12 21:22:29 INFO  Report:11 - Exited HomePage::clickOnSearchButton()
+2019-12-12 21:22:29 INFO  Report:11 - Entering DriverUtilities::enterText()
+2019-12-12 21:22:29 INFO  Report:11 - Exiting DriverUtilities::enterText() with 'News"
+2019-12-12 21:22:49 INFO  Report:11 - Entering DriverUtilities::deleteCookies()
+2019-12-12 21:22:50 INFO  Report:11 - Exiting DriverUtilities::deleteCookies() with 'true"
+2019-12-12 21:22:50 INFO  Report:11 - Entering DriverUtilities::closeBrowser()
+2019-12-12 21:22:50 INFO  Report:11 - Exiting DriverUtilities::closeBrowser() with 'true"
+2019-12-12 21:22:50 INFO  Report:11 - Entering DriverUtilities::quitDriver()
+2019-12-12 21:22:51 INFO  Report:11 - Exiting DriverUtilities::quitDriver() with 'true"
+2019-12-12 21:22:51 INFO  Report:11 - -------Validate search functionality finished execution-------
+2019-12-12 21:22:51 INFO  Report:11 - -------Validate the header navigation link started execution-------
+2019-12-12 21:22:51 INFO  Report:11 - Entered PropertyUtils::readPropertyFile with './resources/global.properties'
+2019-12-12 21:22:51 INFO  Report:11 - Exited PropertyUtils::readPropertyFile
+2019-12-12 21:22:57 INFO  Report:11 - Entering DriverUtilities::openUrl()
+2019-12-12 21:23:52 INFO  Report:11 - Exiting DriverUtilities::openUrl() with 'true"
+2019-12-12 21:23:52 INFO  Report:11 - Entering HomePage::checkSignInButtonIsDisplayed()
+2019-12-12 21:23:52 INFO  Report:11 - Entering DriverUtilities::waitForElementToBecomeVisible()
+2019-12-12 21:23:52 INFO  Report:11 - Exiting DriverUtilities::waitForElementToBecomeVisible() with 'true"
+2019-12-12 21:23:52 INFO  Report:11 - Exited HomePage::checkSignInButtonIsDisplayed() with : true
+2019-12-12 21:23:52 INFO  Report:11 - Entering DriverUtilities::clickOnElement()
+2019-12-12 21:23:52 INFO  Report:11 - Exiting DriverUtilities::clickOnElement() with 'true"
+2019-12-12 21:23:52 INFO  Report:11 - Entering DriverUtilities::waitForElementToBecomeVisible()
+2019-12-12 21:23:52 INFO  Report:11 - Exiting DriverUtilities::waitForElementToBecomeVisible() with 'true"
+2019-12-12 21:23:52 INFO  Report:11 - Entering DriverUtilities::clickOnElement()
+2019-12-12 21:23:57 INFO  Report:11 - Exiting DriverUtilities::clickOnElement() with 'true"
+2019-12-12 21:23:57 INFO  Report:11 - Entering DriverUtilities::waitForElementToBecomeVisible()
+2019-12-12 21:23:57 INFO  Report:11 - Exiting DriverUtilities::waitForElementToBecomeVisible() with 'true"
+2019-12-12 21:23:57 INFO  Report:11 - Entering DriverUtilities::deleteCookies()
+2019-12-12 21:23:59 INFO  Report:11 - Exiting DriverUtilities::deleteCookies() with 'true"
+2019-12-12 21:23:59 INFO  Report:11 - Entering DriverUtilities::closeBrowser()
+2019-12-12 21:23:59 INFO  Report:11 - Exiting DriverUtilities::closeBrowser() with 'true"
+2019-12-12 21:23:59 INFO  Report:11 - Entering DriverUtilities::quitDriver()
+2019-12-12 21:24:00 INFO  Report:11 - Exiting DriverUtilities::quitDriver() with 'true"
+2019-12-12 21:24:00 INFO  Report:11 - -------Validate the header navigation link finished execution-------
+2019-12-12 21:24:00 INFO  Report:11 - -------Validate the homepage has multiple subheadings started execution-------
+2019-12-12 21:24:00 INFO  Report:11 - Entered PropertyUtils::readPropertyFile with './resources/global.properties'
+2019-12-12 21:24:00 INFO  Report:11 - Exited PropertyUtils::readPropertyFile
+2019-12-12 21:24:06 INFO  Report:11 - Entering DriverUtilities::openUrl()
+2019-12-12 21:24:26 INFO  Report:11 - Exiting DriverUtilities::openUrl() with 'true"
+2019-12-12 21:24:26 INFO  Report:11 - Entering HomePage::checkSignInButtonIsDisplayed()
+2019-12-12 21:24:26 INFO  Report:11 - Entering DriverUtilities::waitForElementToBecomeVisible()
+2019-12-12 21:24:26 INFO  Report:11 - Exiting DriverUtilities::waitForElementToBecomeVisible() with 'true"
+2019-12-12 21:24:26 INFO  Report:11 - Exited HomePage::checkSignInButtonIsDisplayed() with : true
+2019-12-12 21:24:26 INFO  Report:11 - Entering HomePage::getTheSubHeadingsCount()
+2019-12-12 21:24:26 INFO  Report:11 - Exiting HomePage::getTheSubHeadingsCount() with :84
+2019-12-12 21:24:26 INFO  Report:11 - Headers displayed :84
+2019-12-12 21:24:26 INFO  Report:11 - Entering DriverUtilities::deleteCookies()
+2019-12-12 21:24:28 INFO  Report:11 - Exiting DriverUtilities::deleteCookies() with 'true"
+2019-12-12 21:24:28 INFO  Report:11 - Entering DriverUtilities::closeBrowser()
+2019-12-12 21:24:30 INFO  Report:11 - Exiting DriverUtilities::closeBrowser() with 'true"
+2019-12-12 21:24:30 INFO  Report:11 - Entering DriverUtilities::quitDriver()
+2019-12-12 21:24:30 INFO  Report:11 - Exiting DriverUtilities::quitDriver() with 'true"
+2019-12-12 21:24:30 INFO  Report:11 - -------Validate the homepage has multiple subheadings finished execution-------

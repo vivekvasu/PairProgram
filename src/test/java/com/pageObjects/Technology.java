@@ -11,6 +11,10 @@ public class Technology {
 	
 	WebDriver driver;
 	
+	/**
+	 * Constructor
+	 * @param driver
+	 */
 	public Technology(WebDriver driver)
 	{
 		this.driver = driver;
